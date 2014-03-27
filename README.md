@@ -1,7 +1,7 @@
 # Weather Icons
 *Version 1.0 - 2014.03.27*
 
-## A free, open source JavaScript vectorial set of Weather icons design for HTML5 Canvas
+### A free, open source JavaScript vectorial set of Weather icons design for HTML5 Canvas
 
 Weather Icons is a set of 20 weather themed icons, ready to be dropped right into yout web project. 
 
@@ -12,5 +12,5 @@ Inspired by ["plain weather icons by Merlin the red"](http://merlinthered.devian
 ### Collaboration
 If you feel so inclined to add icon ideas, icon art, or other fixes/changes to how the package works, feel free to help!
 
-## Contact
+### Contact
 Weather Icons is maintained by Antonio Esquer. Reach me at [char95.com](http;//www.char95.com).
