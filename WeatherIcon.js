@@ -935,7 +935,9 @@ var WeatherIcon = (function(){
 	
 		if(typeof dom=='string') dom = document.getElementById(dom);
 	
-		var weatherIcon = new WeatherIcon(dom,param.stroke===true?true:false,param.shadow===true?true:false);
+		if (param==undefined) param = {};
+			
+		var weatherIcon = new WeatherIcon(dom,param.stroke===false?false:true,param.shadow===true?true:false);
 		
 		weatherIcon.setIcon(icon);
 		weatherIcon.setBody(param.mode===WeatherIcon.NIGHT?WeatherIcon.NIGHT:WeatherIcon.DAY);
